@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("imgvido/img/netimgbg.jpg");
+height: 100vh;
+position: relative;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: max(1400px, 100vw);
+}
+
+main.box{
+    height: 84vh;
+    width: 100%;
+    opacity: 0.80;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+nav img
+{
+    color: red;
+    width: 114px;
+    position: relative;
+z-index: 10;
+}
+nav button{
+    z-index: 10;
+}
+.hero{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;   
+ flex-direction: column;
+ color: white;
+ position: relative;
+ padding: 30px;
+ gap: 23px;
+}
+/* .hero:first-child{
+    font-weight: bolder;
+    font-size: 78px;
+} */
+.separation{
+  height: 7px;
+  background-color: rgb(43, 41, 41);   
+}
+.btn{
+    padding: 3px 8px ;
+font-weight: bold;
+background-color:rgba(248,243,243,0.342);
+color: white;
+border: 1px solid white;
+border-radius: 4px;
+cursor: pointer;
+font-weight: 400;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 5px 24px;
+    font-size: 27px;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+.main input{
+    padding: 7px 15px 8px 14px;
+    font-size: 23px;
+    background-color: rgba(23, 23, 23, 0.89);
+}
+.first{
+    display: flex;
+    justify-content: right;
+    
+}
+.secimg img{
+    width: 25vw;
+
+}
+.faqbox{
+    display: flex;
+    background-color: gray;
+    padding: 34px;
+}
